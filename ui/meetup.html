@@ -12,49 +12,50 @@
 
 <div class="main-nav">
   <a href="homepage.html"><img src="img/logo2.png" width="40px"/></a>
-  <a href="profile.html"><i class="fas fa-user profile"></i> Profile</a>
+  <a href="login.html"> Logout</a>
+  <a href="user_activity.html"> Activity</a>
 </div>
 
 <div class="row clearfix">
-    <div class="column side">
-        <h2 class="profile-name">OlatoyeBrain <i class="fas fa-user rit"></i></h2>
-        <p class="view-profile"><a href="#">View: 3 Question Posted - 12 comments</a></p>
+    <div class="column-side-l">
+      <h2 class="profile-name">Olatoye Sodimu <i class="fas fa-user rit"></i></h2>
+      <p class="view-profile"><a href="user_activity.html">3 Question Posted</a><a href="profile.html" title="edit profile"><i class="far fa-edit rit"></i></a></p>
     </div>
-  <div class="column middle">
-    <div class="meetup-card">Posted Meetup Topic </div>
+  <div class="column-middle">
+    <div class="meetup-card">Question Post on Meetup's</div>
 
     <div class="card">
-      <h2 class="meetup-title-page">Lorem ipsum dolor sit amet sectetur adipiscing</h2>
-        <p class="content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna.
-             Vivamus venenatis velit nec neque ultricies, eget elementum magna tristique. Quisque vehicula, risus eget aliquam placerat Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus venenatis velit nec neque ultricies aliquam placerat Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus venenatis velit nec neque ultricies
-             eget elementum magna tristique. Quisque vehicula, risus eget aliquam placerat</p>
-      <p class="card-footer">
-        <a href="#">
-        4 Question <i class="far fa-question-circle qu"></i></a> 
-        <span class="rit">2d</span>
-      </p>
+      <h2 class="meetup-title"><a href="meetup.html">Lorem ipsum dolor sit amet sectetur adipiscing</a></h2>
+        <p class="content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus venenatis velit nec neque ultricies, eget elementum magna tristique. Quisque vehicula, risus eget aliquam placerat 
+            <span class="posted-by-location">Posted by -Adeoluwakisi Gabriel<span class="rit">Yaba, Lagos</span></span>
+          <p class="card-footer">
+          4 Question Asked  <i class="fab fa-discourse"></i></a> 
+          <span class="rit">Jan 8th</span>
+        </p>
     </div>
 
     <div class="card">
+        <form id="comment">
             <textarea name="textarea" id="comment"  rows="6" placeholder="Ask your question?"></textarea>
-            <a href="signup.html"><button class="blue-btn" type="button">Ask Question</button></a>
+            <a href="#"><button class="blue-btn" type="button">Ask Question</button></a>
+        </form>
     </div>
 
     <div id="posted-question">
-        <h2 class="posted-by"><a href="#">Adeosun Makinde</a> <span class="rit">2m</span></h2>
+        <h2 class="posted-by">Adeosun Makinde </h2>
           <p class="content"> Maecenas sit amet pretium urna. Vivamus venenatis velit nec neque ultricies, eget elementum magna tristique. Quisque vehicula, risus eget aliquam placerat</p>
         <p class="card-footer">
           <a href="comment.html">
-          4 Comment <i class="fas fa-comment-alt"></i></a> 
+          4 Comment <i class="fab fa-discourse mr-10"></i></a> 
           <span class="rit"><a href="#"> 3 Upvote</a> &nbsp;.&nbsp; <a href="#"> 4 Downvote</a></span>
         </p>
     </div>
     <div id="posted-question">
-        <h2 class="posted-by"><a href="#">Craig Mason</a> <span class="rit">8m</span></h2>
+        <h2 class="posted-by">Craig Mason </h2>
             <p class="content"> Maecenas sit amet pretium urna. Vivamus venenatis velit nec neque ultricies, eget elementum magna tristique. Quisque vehicula, risus eget aliquam placerat</p>
         <p class="card-footer">
             <a href="comment.html">
-            4 Comment <i class="fas fa-comment-alt"></i></a> 
+            4 Comment <i class="fab fa-discourse"></i></a> 
             <span class="rit"><a href="#"> 3 Upvote</a> &nbsp;.&nbsp; <a href="#"> 4 Downvote</a></span>
         </p>
     </div>
@@ -63,7 +64,7 @@
 
     
   </div>
-  <div class="column side">
+  <div class="column-side-r">
 
     <div class="upcoming-meetup">Upcoming Meetup's  <i class="fas fa-calendar-week rit"></i></div>
       <div class="card-side">
